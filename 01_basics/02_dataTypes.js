@@ -18,12 +18,12 @@ let state;
 // bigint
 // string => ""
 // boolean => true/false
-// null => standalone value
+// null => standalone value; 
 // undefined => 
-// symbol => unique
+// symbol => unique; Whenever we want to talk about uniqueness we use symbol
 
 
 // object
 
 console.log(typeof undefined); // undefined
-console.log(typeof null); // object
+console.log(typeof null); // null is an object
